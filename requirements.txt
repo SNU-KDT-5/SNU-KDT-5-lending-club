@@ -1,0 +1,7 @@
+# 개발 환경: macOS · Python 3.14
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+scikit-learn>=1.7
+pyarrow>=15.0      # 선택 — 없으면 donor 풀을 csv.gz 로 자동 대체
+matplotlib>=3.8    # analysis/ 그림용
