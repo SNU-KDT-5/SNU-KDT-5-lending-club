@@ -46,4 +46,5 @@ Lending Club 데이터로 장기적으로 건전하게 운용 가능한 신용�
 | ③ 트리×122 | CatBoost | 122열 | **0.1940** |
 
 <br>
+
 챔피언 모델(CatBoost×122)은 공식 test(744,443건)에서 Sharpe +0.1164를 기록했으며, LC의 기존 sub_grade 기준선(+0.0425)을 상회한다. 자세한 수치와 해석은 `modeling/README.md` 및 `modeling/04_final_test.ipynb`에서 확인 가능.
