@@ -24,6 +24,18 @@ Lending Club 데이터로 장기적으로 건전하게 운용 가능한 신용�
 
 <br>
 
+### 노트북 구성
+
+`01_linear_models.ipynb` 선형 계열 두 모델(LR, K-means+Ridge)의 Sharpe 비교와 Optuna 재튜닝, 부트스트랩 유의성 검증
+
+`02_tree_models.ipynb` 트리 계열 3종 × 47/122열 6개 조합 학습·튜닝
+
+`03_effect_decomposition.ipynb`  ①②③ 예측값을 불러와 모형효과/변수효과를 부트스트랩(500회)으로 분해, 컷오프 선정, 등급 내 AUC·부도율·재분류 분석까지 진행
+
+`04_final_test.ipynb` 🌟 핵심 파일. test 데이터로 챔피언 모델 평가
+
+<br>
+
 
 ## 파이프라인 요약
 
